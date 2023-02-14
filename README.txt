@@ -1,11 +1,12 @@
-This folder contains Python functions to perform analysis and scripts to 
+This repository contains Python functions to perform analysis and scripts to 
 create figures in the paper:
 
 Day-Lewis, F.D., Mackley, R.D., and Thompson, J., Interpreting Concentrations 
 Sampled from Long-Screened Wells in the Presence of Borehole Flow: 
 An Inverse Modeling Approach
 
-Install quad prog: pip install quadprog
+Dependencies:
+To install quad prog: pip install quadprog
 https://pypi.org/project/quadprog/
 
 Contents:
@@ -15,14 +16,17 @@ Class BhFlow:
 functions:
 =========
 NumberOfLayers		-Creates a variable defining the number of layers based on the number of K values given
+
 NlayersZerosArray	-These 3 functions create arrays that depend on the number of layers
 NxNLayersZerosArray
 NlayersOnesArray
+
 Discretize		-Discretize the screened portion of the well based on interval thickness (b) and depth to bottom of well
 BoreholeFlowModel	-Solves steady state hydraulic flow problem
 BoreholeTransportModel	-Solves steady state transport
 TransientTransportModel	-Solves transient transport
 invertBHconc		-Invert concentration data
+
 MakeDataLists		-These functions are for data cleaning (combining datasets, converting to arrays, etc.)
 AppendData
 MakeDataListsTransient
@@ -35,7 +39,7 @@ Class PlotFigures:
 =========
 Plots figures 3, 4, 5, and 6
 
-scripts:
+Scripts:
 =======
 BoreholeFlow.py   - library of classes/functions (detailed above) to be used in the Jupyter Notebook scripts.
 Borehole_Algorithm_Data_Validation.ipynb - Imports output data from Matlab and Python for comparison. 
@@ -46,14 +50,9 @@ makeFigure5.ipynb - makes figure 5 in the paper
 makeFigure6.ipynb - makes figure 6 in the paper
 
 
-pdfs:
+pdf:
 =====
-This subfolder contains pdf's of the notebooks to facilitate viewing.
-
-html:
-====
-This subfolder contains html of the notebooks to facilitate viewing.
-
+This 'BoreholeFlow Notebooks.pdf' has the Jupyter the notebooks to facilitate viewing.
 
 License:
 This material was prepared as an account of work sponsored by an agency of 
