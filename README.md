@@ -2,7 +2,7 @@
 
 This repository contains Python functions to perform analysis and scripts to create figures in the paper:
 
-Day-Lewis, F.D., Mackley, R.D., and Thompson, J., Interpreting Concentrations Sampled from Long-Screened Wells in the Presence of Borehole Flow: An Inverse Modeling Approach
+Day-Lewis, F.D., Mackley, R.D., and Thompson, J., 2023, Interpreting Concentrations Sampled from Long-Screened Wells in the Presence of Borehole Flow: An Inverse Modeling Approach, Groundwater Journal. 
 
 ## Dependencies:
 
